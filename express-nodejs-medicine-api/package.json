@@ -1,0 +1,23 @@
+{
+  "name": "express-nodejs-medicine-api",
+  "version": "1.0.0",
+  "description": "An API to get the medicine from specific details.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamatulkumar-ya/nodejs.git#develop"
+  },
+  "author": "Atul Kumar Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamatulkumar-ya/nodejs/issues"
+  },
+  "homepage": "https://github.com/iamatulkumar-ya/nodejs/tree/develop/express-nodejs-medicine-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
