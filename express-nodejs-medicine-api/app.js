@@ -1,19 +1,22 @@
+// importing status from http-status module for standards code
+const  { status } = require('http-status');
 // creating varible for express module
-const express = require('express'); 
+const express = require('express');
+// creating instance of the function
 const app = express() 
-const port = 3000 // defining the port
+// defining the port
+const port = 3000 
 
 // below is the code to allow the json body from request
 app.use(express.json());
 
-// app controllers
-const searchmedicine_controller = require('./controllers/searchmedicine_controller')
-const searchmedicine_controllerOBJ =  new searchmedicine_controller()
+// loading env 
+require('dotenv').config();
 
 // API  
 // default url - health check endpoint
 app.get('/', (req, res) => { 
-    res.send('Medicine Search API is running healthy.')
+    res.status(status.OK).send('Medicine Search API is running healthy.')
 })
  
 
@@ -27,7 +30,11 @@ const verification = (req, res, next) =>{
 app.get('/searchmedicine',  (req, res) => {  
     try
     {
-        searchmedicine_controllerOBJ.validate_request_input(req.body);
+        // route Handlers
+        const SearchMedicineHandler = require('./src/route_handlers/searchMedicineHandler.js');
+        const SearchMedicineHandlerOBJ =  new SearchMedicineHandler()
+
+        SearchMedicineHandlerOBJ.validate_request_input(req.body);
     }
     catch (err) {
         console.log(err);

@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/iamatulkumar-ya/nodejs/tree/develop/express-nodejs-medicine-api#readme",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.14.1",
     "nodemon": "^3.1.10"
   }
 }
