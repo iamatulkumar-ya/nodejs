@@ -1,0 +1,76 @@
+[
+  {
+    "userID": 1,
+    "userFirstName" : "John",
+    "userLastName" : "Cena",
+    "userAddress" : {
+        "userCity": "asd",
+        "userState":"qr",
+        "userPinCode":112233
+    },
+
+    "userContact" : 9999999999
+
+},
+
+ 			
+  {
+    "userID": 2,
+    "userFirstName" : "Lynch",
+    "userLastName" : "Merrill",
+    "userAddress" : {
+        "userCity": "awdsd",
+        "userState":"qrasd",
+        "userPinCode":223355
+    },
+
+    "userContact" : 9999988999
+
+},
+
+ 	
+{
+    "userID": 3,
+    "userFirstName" : "Triple",
+    "userLastName" : "H",
+    "userAddress" : {
+        "userCity": "asqd",
+        "userState":"qqascr",
+        "userPinCode":114233
+    },
+
+    "userContact" : 999967899
+
+},
+
+ 	
+{
+    "userID": 4,
+    "userFirstName" : "Mike",
+    "userLastName" : "Harder",
+    "userAddress" : {
+        "userCity": "asdq",
+        "userState":"qrafs",
+        "userPinCode":112264
+    },
+
+    "userContact" : 9999997469
+
+},
+
+ 	
+{
+    "userID": 5,
+    "userFirstName" : "Bella",
+    "userLastName" : "Bella",
+    "userAddress" : {
+        "userCity": "asdasd",
+        "userState":"qrqeads",
+        "userPinCode":112299
+    },
+
+    "userContact" : 9999994099
+
+}
+
+]
